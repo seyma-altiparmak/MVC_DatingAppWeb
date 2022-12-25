@@ -1,7 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using System.Data;
 
-namespace OnlineDateApplication.MVC.Controllers
+namespace OnlineDateApplication.MVC.Controllers.Authorization
 {
     public class UserRegistration
     {

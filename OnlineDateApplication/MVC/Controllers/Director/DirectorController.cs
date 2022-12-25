@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace OnlineDateApplication.MVC.Controllers
+namespace OnlineDateApplication.MVC.Controllers.Director
 {
     public class DirectorController : Controller
     {

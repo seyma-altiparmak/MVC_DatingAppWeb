@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace OnlineDateApplication.MVC.Controllers
+namespace OnlineDateApplication.MVC.Controllers.Actor
 {
-    public class MovieController : Controller
+    public class ActorController : Controller
     {
         public IActionResult Index()
         {

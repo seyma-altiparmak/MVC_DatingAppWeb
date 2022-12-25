@@ -4,9 +4,10 @@ using System.Web.Mvc;
 using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
+using OnlineMovieWebApplication.MVC.Model;
 
 
-namespace OnlineMovieWebApplication.MVC.Model
+namespace OnlineDateApplication.MVC.Model.EF.EF_MovieList
 {
     public class Movie_Actor
     {

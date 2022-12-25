@@ -6,7 +6,7 @@ using System.Data.SqlClient;
 using System.Configuration;
 
 
-namespace OnlineMovieWebApplication.MVC.Model
+namespace OnlineDateApplication.MVC.Model.EF.EF_UserList
 {
     public class User
     {

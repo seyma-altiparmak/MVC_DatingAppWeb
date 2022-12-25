@@ -4,18 +4,22 @@ using System.Web.Mvc;
 using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
+using OnlineDateApplication.MVC.Model.EF.EF_ActorList;
+using OnlineDateApplication.MVC.Model.EF.EF_DirectorList;
 
-
-namespace OnlineMovieWebApplication.MVC.Model
+namespace OnlineDateApplication.MVC.Model.EF.EF_MovieList
 {
     public class Movie
     {
-        public string? MovieID { get; set; }
+        public int? MovieID { get; set; } //PK isn't nullable 
+        public string? MovieName { get; set; }
         public string? MovieCategory { get; set; }
+        public decimal? MovieIMDB { get; set; }
+        public string? MovieLanguage { get; set; }
+
+        //dinamik
         public Actor? MovieActors { get; set; }
         public Director? DirectorID { get; set; }
-        public string? MovieLanguage { get; set; }
-        public float? MovieIMDB { get; set; }
         public string? MovieComment { get; set; }
     }
 }

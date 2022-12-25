@@ -4,9 +4,9 @@ using System.Web.Mvc;
 using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
+using OnlineDateApplication.MVC.Model.EF.EF_UserList;
 
-
-namespace OnlineMovieWebApplication.MVC.Model
+namespace OnlineDateApplication.MVC.Model.EF.EF_MovieList
 {
     public class Comment
     {

@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Storage;
-using OnlineMovieWebApplication.MVC.Model;
 using System;
 using System.Linq;
 using System.Web;
 using Microsoft.AspNetCore.Identity;
+using OnlineDateApplication.MVC.Model.EF.EF_UserList;
 
-namespace OnlineDateApplication.MVC.Controllers
+namespace OnlineDateApplication.MVC.Controllers.Authorization
 {
     public class SecurityController : Controller
     {
@@ -17,11 +17,12 @@ namespace OnlineDateApplication.MVC.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login(User user) {
+        public IActionResult Login(User user)
+        {
             //var userInDataBase = Database.User...(x => x.user)
-            if(user.UserID != null)
+            if (user.UserID != null)
             {
-                
+
             }
             return View(user);
         }

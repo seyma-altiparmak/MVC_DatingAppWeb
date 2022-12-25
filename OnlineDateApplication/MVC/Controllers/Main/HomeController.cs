@@ -1,11 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using OnlineMovieWebApplication.MVC.Model;
-using System.Web.WebPages.Scope;
 
-namespace OnlineDateApplication.MVC.Controllers
+namespace OnlineDateApplication.MVC.Controllers.Main
 {
-    public class UserController : Controller
+    public class HomeController : Controller
     {
         [Authorize]
         public IActionResult Index()
